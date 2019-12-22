@@ -52,6 +52,7 @@ p{
 button{
     width:6rem;
     height:3rem;
+    background-color:white;
     font-family: 'Girassol', cursive;
     border: none;
 }
