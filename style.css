@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(to top, black, rgb(102, 156, 102));
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
+
+#overskrift1{
+    font-family: 'Girassol', cursive;
+    text-align: center;
+    padding-bottom:10px;
+    font-size: 24px;
+
+
+}
+#overskrift2{
+    font-size: 24px;
+    font-family: 'Girassol', cursive;
+    text-align: center;
+    padding-bottom:10px;
+
+}
+
+#collect{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+#receive{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+#receivenumber{
+    margin-top: 0px;
+    display:flex;
+    justify-content: center;
+}
+p{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin:5px;
+    color:white
+}
+
+#but{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+button{
+    width:6rem;
+    height:3rem;
+    font-family: 'Girassol', cursive;
+    border: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Girassol', cursive;
+}
+
+.image{
+
+    width: 3rem;
+    height: 3rem;
+}
+
+@media only screen and (min-width: 500px)
