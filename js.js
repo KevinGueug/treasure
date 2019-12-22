@@ -45,9 +45,9 @@ granat.addEventListener("click", ()=>{
 const button = document.getElementsByTagName("button");
 button[0].addEventListener("click", ()=>{
     if (3 > items.bamse) {
-        alert("You need atleast 3 Teddys")}
+        alert("You need at least 3 Teddys")}
     else if (10 > items.granat + items.penger + items.bamse + items.oks){
-        alert("You need atleast 10 items")
+        alert("You need at least 10 items")
     }
     else {
        document.body.innerHTML="";
